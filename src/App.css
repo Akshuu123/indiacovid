@@ -1,0 +1,8 @@
+tbody td:nth-child(5):hover,tbody td:nth-child(3):hover{
+  background-color: lightcoral;
+  color: white!important;
+}
+tbody td:nth-child(4):hover{
+  background-color: green;
+  color: white!important;
+}
