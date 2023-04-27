@@ -15,14 +15,14 @@ const Heading = () => {
 
     return (
         <>
-            <div className="main-heading">
+            <div className="main-heading py-2">
                 <h1 className='text-center pt-3 fw-bold'>COVID-19 TRACKER</h1>
             </div>
 
-            <div className="summary text-center d-flex justify-content-between container">
-                <h3 className="col-3 d-flex flex-column rounded px-2 py-2 text-bg-info">Total Case<span></span></h3>
-                <h3 className="col-3 d-flex flex-column rounded px-2 py-2 text-bg-danger">Total Death<span></span></h3>
-                <h3 className="col-3 d-flex flex-column rounded px-2 py-2 text-bg-success">Total Discharged<span></span></h3>
+            <div className="summary text-center d-flex gap-2 justify-content-between container">
+                <h3 className="col-3 d-flex flex-column rounded px-2 py-1 text-bg-info">Total Case<span></span></h3>
+                <h3 className="col-3 d-flex flex-column rounded px-2 py-1 text-bg-danger">Total Death<span></span></h3>
+                <h3 className="col-3 d-flex flex-column rounded px-2 py-1 text-bg-success">Total Discharged<span></span></h3>
             </div>
         </>
     )
