@@ -1,3 +1,28 @@
+
+@media only screen and (max-width: 600px) {
+  h3 {font-size:15px !important;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  h3{font-size:20px!important;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  h3{font-size:23px!important;}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  h3{font-size:27px!important;}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  h3{font-size: 30px!important;}
+}
+
 tbody td:nth-child(5):hover,tbody td:nth-child(3):hover{
   background-color: lightcoral;
   color: white!important;
