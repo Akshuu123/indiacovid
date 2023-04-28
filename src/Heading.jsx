@@ -4,7 +4,7 @@ const Heading = () => {
     res.then((response) => response.json())
         .then((result) => {
             var data = result.data.summary
-            console.log(data);
+
             let htag=document.querySelectorAll('span')
             htag[0].innerHTML=data.total;
             htag[1].innerHTML=data.deaths;
@@ -28,11 +28,3 @@ const Heading = () => {
     )
 }
 export default Heading;
-
-const newApp = () => {
-    return (
-        <>
-
-        </>
-    )
-}

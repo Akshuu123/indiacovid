@@ -4,9 +4,9 @@ const Table = () => {
     const getCoviddata = async () => {
         const res = await fetch('https://api.rootnet.in/covid19-in/stats/latest')
         const actualData = await res.json();
-        // console.log(actualData.data);
+        
         const regional = actualData.data.regional
-        console.log(regional);
+        
         updata(regional)
 
     }
