@@ -6,7 +6,8 @@ const Heading = () => {
             var data = result.data.summary
 
             let htag=document.querySelectorAll('span')
-            htag[0].innerHTML=data.total;
+            htag[0].innerHTML=data.total; 
+            console
             htag[1].innerHTML=data.deaths;
             htag[2].innerText=data.discharged;
         }).catch((err) => {
