@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/indiacovid/static/css/main.7221998b.css",
+    "main.js": "/indiacovid/static/js/main.c139b244.js",
+    "index.html": "/indiacovid/index.html",
+    "main.7221998b.css.map": "/indiacovid/static/css/main.7221998b.css.map",
+    "main.c139b244.js.map": "/indiacovid/static/js/main.c139b244.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7221998b.css",
+    "static/js/main.c139b244.js"
+  ]
+}
